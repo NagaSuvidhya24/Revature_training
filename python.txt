@@ -1,0 +1,500 @@
+5>6 and 3<7
+False
+5<6 and 3>7
+False
+not 6
+False
+not -6
+False
+7&9
+1
+7|9
+15
+7^9
+14
+
+Shift Operator:
+right shift:>>
+left shift:<<
+ex:
+5 << 3 
+40(0101000)stores in 8 bit representation so the value is 40 manually we use 3 but representation so ans is 8(1000)
+## shift with rotate operator is not available in python
+num1 =10
+type(num1)
+<class 'int'>
+num1 is int
+False
+5 is int
+False
+type(5) is int
+True
+type(num1) is int
+True
+print
+<built-in function print>
+print(num1)
+10
+print('hi')
+hi
+'hi'
+'hi'
+peirn('hi'+'hello')
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    peirn('hi'+'hello')
+NameError: name 'peirn' is not defined
+print('hi' +'hello')
+hihello
+print(num1 + 10)
+20
+print(num1 + '10')
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    print(num1 + '10')
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+print('hi' + 10)
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    print('hi' + 10)
+TypeError: can only concatenate str (not "int") to str
+print('hi' + '10')
+hi10
+print('sum : ' + num +10)
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    print('sum : ' + num +10)
+NameError: name 'num' is not defined. Did you mean: 'num1'?
+print('sum : ' + num1 +10)
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    print('sum : ' + num1 +10)
+TypeError: can only concatenate str (not "int") to str
+print('sum:',num1+10)
+sum: 20
+print('sum : '+' \n',num +10)
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    print('sum : '+' \n',num +10)
+NameError: name 'num' is not defined. Did you mean: 'num1'?
+print('sum : ' + ' \n', num +10)
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    print('sum : ' + ' \n', num +10)
+NameError: name 'num' is not defined. Did you mean: 'num1'?
+print('sum : ' + ' \n', num1 +10)
+sum :  
+ 20
+input()
+5
+'5'
+input()
+hui
+'hui'
+input('Enter a num')
+Enter a num 8
+' 8'
+input('Enter a num')
+Enter a num 56652752648652
+' 56652752648652'
+int(input('Enter a num :'))
+Enter a num :5
+5
+float(input('Enter a num :'))
+Enter a num :5
+5.0
+bool(input('Enter a num :'))
+Enter a num :6
+True
+bool(input('Enter a num :'))
+Enter a num :0
+True
+bool(input('Enter a num :'))
+Enter a num :-6
+True  5>6 and 3<7
+False
+5<6 and 3>7
+False
+not 6
+False
+not -6
+False
+7&9
+1
+7|9
+15
+7^9
+14
+
+Shift Operator:
+right shift:>>
+left shift:<<
+ex:
+5 << 3 
+40(0101000)stores in 8 bit representation so the value is 40 manually we use 3 but representation so ans is 8(1000)
+## shift with rotate operator is not available in python
+num1 =10
+type(num1)
+<class 'int'>
+num1 is int
+False
+5 is int
+False
+type(5) is int
+True
+type(num1) is int
+True
+print
+<built-in function print>
+print(num1)
+10
+print('hi')
+hi
+'hi'
+'hi'
+peirn('hi'+'hello')
+Traceback (most recent call last):
+  File "<pyshell#21>", line 1, in <module>
+    peirn('hi'+'hello')
+NameError: name 'peirn' is not defined
+print('hi' +'hello')
+hihello
+print(num1 + 10)
+20
+print(num1 + '10')
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    print(num1 + '10')
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+print('hi' + 10)
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    print('hi' + 10)
+TypeError: can only concatenate str (not "int") to str
+print('hi' + '10')
+hi10
+print('sum : ' + num +10)
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    print('sum : ' + num +10)
+NameError: name 'num' is not defined. Did you mean: 'num1'?
+print('sum : ' + num1 +10)
+Traceback (most recent call last):
+  File "<pyshell#28>", line 1, in <module>
+    print('sum : ' + num1 +10)
+TypeError: can only concatenate str (not "int") to str
+print('sum:',num1+10)
+sum: 20
+print('sum : '+' \n',num +10)
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    print('sum : '+' \n',num +10)
+NameError: name 'num' is not defined. Did you mean: 'num1'?
+print('sum : ' + ' \n', num +10)
+Traceback (most recent call last):
+  File "<pyshell#31>", line 1, in <module>
+    print('sum : ' + ' \n', num +10)
+NameError: name 'num' is not defined. Did you mean: 'num1'?
+print('sum : ' + ' \n', num1 +10)
+sum :  
+ 20
+input()
+5
+'5'
+input()
+hui
+'hui'
+input('Enter a num')
+Enter a num 8
+' 8'
+input('Enter a num')
+Enter a num 56652752648652
+' 56652752648652'
+int(input('Enter a num :'))
+Enter a num :5
+5
+float(input('Enter a num :'))
+Enter a num :5
+5.0
+bool(input('Enter a num :'))
+Enter a num :6
+True
+bool(input('Enter a num :'))
+Enter a num :0
+True
+bool(input('Enter a num :'))
+Enter a num :-6
+True
+// here the return value is true bcz whatever you type in the console input() is always taken as a string
+So if you type -6, Python stores it as "-6" Now Python checks the truthiness of this string,Because bool() doesn’t look at the numeric value inside the string —
+it only checks if the object is empty or not
+
+COMMENTS:
+# single line comments
+''' : multi line comments
+'hi'
+'hi'
+
+"hi"
+'hi'
+"Ram's house'
+SyntaxError: unterminated string literal (detected at line 1)
+"Ram's house"
+"Ram's house"
+'Ram's house'
+SyntaxError: unterminated string literal (detected at line 1)
+'Ram"s house'
+'Ram"s house'
+str ='hello there !'
+str
+'hello there !'
+len(str)
+13
+str[0]
+'h'
+str[12]
+'!'
+str[-5]
+'e'
+str[11]
+' '
+str[-7]
+'t'
+-ve indexing used to print the number from the backwards traversal is from left to right.
+string starts from 0 index no.
+str[0:3]
+str[0:3]
+'hel'
+str[5:10]
+' ther'
+str[0:10:1]
+'hello ther'
+str[0:10:2]
+'hlote'
+str[0::2]
+'hlotee!'
+str[::2]
+'hlotee!'
+str[-3:-6]
+''
+str[-6:-3]
+'her'
+str
+'hello there !'
+str.capitalize
+<built-in method capitalize of str object at 0x000001E581A0D330>
+str.capitalize()
+'Hello there !'
+str.upper()
+'HELLO THERE !'
+str.lower()
+'hello there !'
+str.count('h')
+2
+str.endswith('!')
+True
+str.endswith('u')
+False
+str.find('o')
+4
+str.find('x')
+-1
+str.index('h')
+0
+str.index('x')
+Traceback (most recent call last):
+  File "<pyshell#77>", line 1, in <module>
+    str.index('x')
+ValueError: substring not found
+str.encode('utf-8')
+b'hello there !'
+str.encode('utf-16')
+b'\xff\xfeh\x00e\x00l\x00l\x00o\x00 \x00t\x00h\x00e\x00r\x00e\x00 \x00!\x00'
+str.replace('r','m')
+'hello theme !'
+str.split()
+['hello', 'there', '!']
+str.split('-')
+['hello there !']
+str1='b-naga-suvidhya'
+str1.split('-')
+['b', 'naga', 'suvidhya']
+str.join(str1)
+'bhello there !-hello there !nhello there !ahello there !ghello there !ahello there !-hello there !shello there !uhello there !vhello there !ihello there !dhello there !hhello there !yhello there !a'
+str2='       naga        '
+str2.strip()
+'naga'
+id(str)
+2085233939248
+numbers =[10,20,30]
+numbers
+[10, 20, 30]
+id(numbers)
+2085233939328
+numbers.append(40)
+numbers
+[10, 20, 30, 40]
+id(numbers)
+2085233939328
+numbers.append(40)
+
+numbers
+[10, 20, 30, 40, 40]
+numbers[2]
+30
+numbers[2,100]
+Traceback (most recent call last):
+  File "<pyshell#99>", line 1, in <module>
+    numbers[2,100]
+TypeError: list indices must be integers or slices, not tuple
+numbers[2]=100
+numbers
+[10, 20, 100, 40, 40]
+numbers.reverse()
+numbers
+[40, 40, 100, 20, 10]
+numbers.count(40)
+2
+numbers.index(20)
+3
+numbers.insert(5,50)
+numbers
+[40, 40, 100, 20, 10, 50]
+numbers.remove(40)
+numbers
+[40, 100, 20, 10, 50]
+numbers.remove(930)
+Traceback (most recent call last):
+  File "<pyshell#110>", line 1, in <module>
+    numbers.remove(930)
+ValueError: list.remove(x): x not in list
+numbers.pop(-2)
+10
+numbers.pop()
+50
+numbers.pop(-12)
+Traceback (most recent call last):
+  File "<pyshell#113>", line 1, in <module>
+    numbers.pop(-12)
+IndexError: pop index out of range
+numbers.sort()
+numbers
+[20, 40, 100]
+numbers.sort(reverse=True)
+numbers
+[100, 40, 20]
+num = numbers.copy()
+num
+[100, 40, 20]
+id(num)
+2085233874112
+id(numbers)
+2085233939328
+num1 = numbers
+id(num1)
+2085233939328
+numbers.extend(nums)
+Traceback (most recent call last):
+  File "<pyshell#124>", line 1, in <module>
+    numbers.extend(nums)
+NameError: name 'nums' is not defined. Did you mean: 'num1'?
+numbers.extend(num)
+nums
+Traceback (most recent call last):
+  File "<pyshell#126>", line 1, in <module>
+    nums
+NameError: name 'nums' is not defined. Did you mean: 'num1'?
+numbers
+[100, 40, 20, 100, 40, 20]
+numbers.clear()
+numbers
+[]
+del(numbers)
+numbers
+Traceback (most recent call last):
+  File "<pyshell#131>", line 1, in <module>
+    numbers
+NameError: name 'numbers' is not defined. Did you forget to import 'numbers'?
+tup=(10,20,30)
+tup[2]
+30
+tup.index(2)
+Traceback (most recent call last):
+  File "<pyshell#134>", line 1, in <module>
+    tup.index(2)
+ValueError: tuple.index(x): x not in tuple
+tup.index(10)
+0
+set1={22,11,33,44,55,62,7}
+set1
+{33, 55, 22, 7, 11, 44, 62}
+set1[4]
+Traceback (most recent call last):
+  File "<pyshell#138>", line 1, in <module>
+    set1[4]
+TypeError: 'set' object is not subscriptable
+set1.add(35)
+set1
+{33, 35, 55, 22, 7, 11, 44, 62}
+set1.add(9)
+set1
+{7, 9, 11, 22, 33, 35, 44, 55, 62}
+set1
+{7, 9, 11, 22, 33, 35, 44, 55, 62}
+set={100,200,300}
+set
+{100, 300, 200}
+set1.union(set)
+{33, 35, 100, 7, 200, 9, 11, 44, 300, 22, 55, 62}
+set2=set1.union(set)
+set2
+{33, 35, 100, 7, 200, 9, 11, 44, 300, 22, 55, 62}
+set2.intersection(set)
+{200, 100, 300}
+set3=set2.intersection(set)
+set3
+{200, 100, 300}
+set4=set.difference(set3)
+set4
+set()
+set4=set.difference(set2)
+set4
+set()
+set1.discard(33)
+set1
+{7, 9, 11, 22, 35, 44, 55, 62}
+dict={1:10,2:20}
+dict
+{1: 10, 2: 20}
+dict[2]
+20
+dict[2]=250
+dict
+{1: 10, 2: 250}
+dict1={'rno':'1','name':'honey'}
+dict1['rno']
+'1'
+dict[rno]
+Traceback (most recent call last):
+  File "<pyshell#165>", line 1, in <module>
+    dict[rno]
+NameError: name 'rno' is not defined
+dict1['rno']=24
+dict1
+{'rno': 24, 'name': 'honey'}
+dict1['ph']=8008853059
+dict1
+{'rno': 24, 'name': 'honey', 'ph': 8008853059}
+ph=dict1.get('ph')
+ph
+8008853059
+dict1.keys()
+dict_keys(['rno', 'name', 'ph'])
+dict1.values()
+dict_values([24, 'honey', 8008853059])
+dict.pop(2)
+250
+
+
+
+
